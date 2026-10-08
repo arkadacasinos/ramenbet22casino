@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className={`${disp.variable} ${sans.variable} x8r2-root`}>
       <head>
+        <meta name="yandex-verification" content="32f631d5ff638836" />
         <title>Ramenbet казино — официальный сайт Раменбет и рабочее зеркало для входа и игры</title>
         <meta
           name="description"
