@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ramenbet22casino.vercel.app/sitemap.xml
